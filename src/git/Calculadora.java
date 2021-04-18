@@ -21,22 +21,19 @@ public class Calculadora {
 		 System.out.println("Ingrese el primer numero");
 		 a = teclado.nextInt();
 		 System.out.println("Ingrese el segundo numero");
-		 a = teclado.nextInt();
+		 a = teclado.nextInt();		 
 		 
+		 public Integer metodoQueDivideDosNumeros(Integer a Integer b) {
+			 Integer resultado = a / b;
+			    System.out.println("El resultado es " + resultado.toString());
+				 return resultado;
+		}
 		 
 		public Integer metodoQueMultiplicaDosNumeros(Integer a,Integer  b) {
 			  Integer resultado = a * b;
 			  System.out.println("El resultado es " + resultado.toString());
 			   return resultado;
 		 }
-			
-		 public Integer metodoQueDivideDosNumeros(Integer a Integer b) {
-			 
-			    Integer resultado = a / b;
-			    System.out.println("El resultado es " + resultado.toString());
-				 return resultado;
-			
-		 }	
 		 
 		 public Integer metodoQueRestaDosNumero(Integer a, Integer b) {
 			 	Integer resultado = a - b;
